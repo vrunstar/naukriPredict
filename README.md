@@ -1,10 +1,10 @@
-# 🎓 NaukriPredict (v3.0.0)
+# ```NaukriPredict (v3.0.0)```
 
 NaukriPredict is an advanced, multi-model student placement likelihood and salary estimation system. It features a modern **Neobrutalist React frontend** and a high-performance **FastAPI backend** running machine learning pipelines with local explainability powered by **SHAP**.
 
 ---
 
-## 🏗️ Architecture Overview
+## ```Architecture Overview```
 
 The application utilizes a decoupled client-server architecture:
 - **Frontend**: Built using React, Vite, and Tailwind CSS. It communicates with the backend via a reverse proxy configured in Vite.
@@ -29,7 +29,7 @@ graph TD
 
 ---
 
-## ✨ Key Features
+## ```Key Features```
 
 - **Dual-Task Predictions**:
   - **Classification**: Predicts whether a student will be placed and the probability using one of four models (Random Forest, Gradient Boosting, Logistic Regression, or Support Vector Machine).
@@ -40,7 +40,7 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+## ```Technology Stack```
 
 ### Frontend
 - **Framework**: React 19 (via Vite)
@@ -57,7 +57,7 @@ graph TD
 
 ---
 
-## ⚙️ Project Structure
+## ```Project Structure```
 
 ```
 naurkiPredict/
@@ -90,7 +90,7 @@ naurkiPredict/
 
 ---
 
-## 🚀 Getting Started
+## ```Getting Started```
 
 ### Prerequisites
 - **Python**: `3.10` or higher (tested on `3.13`)
@@ -148,7 +148,7 @@ naurkiPredict/
 
 ---
 
-## 📊 Preprocessing & Feature Engineering
+## ```Preprocessing & Feature Engineering```
 
 The backend performs custom preprocessing on student profiles:
 - **Categorical Mapping**: Ordinal variables like gender, family income, internet access, and city tier are mapped to numeric values.
@@ -160,6 +160,6 @@ The backend performs custom preprocessing on student profiles:
 
 ---
 
-## 🛡️ License
+## ```License```
 
 This project is licensed under the MIT License.
