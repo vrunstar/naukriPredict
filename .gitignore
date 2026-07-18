@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -16,41 +17,44 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Virtual environments
-.env
-.venv
-env/
+# Virtual Environments
 venv/
+.venv/
 ENV/
 env.bak/
 venv.bak/
+naukri/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# IDE
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite build output
+dist/
+dist-ssr/
+
+# IDEs/Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 .DS_Store
-Thumbs.db
-
-# Models and data (uncomment if you want to include them)
-# models/
-# data/
-
-# Logs
-*.log
-logs/
-
-# Streamlit
-.streamlit/
-.vercel

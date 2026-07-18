@@ -1,0 +1,59 @@
+{
+  "feature_names": [
+    "gender",
+    "cgpa",
+    "twelfth_percentage",
+    "backlogs",
+    "part_time_job",
+    "family_income_level",
+    "city_tier",
+    "internet_access",
+    "extracurricular_involvement",
+    "branch_CE",
+    "branch_CSE",
+    "branch_ECE",
+    "branch_IT",
+    "branch_ME",
+    "branch_EE",
+    "practical_experience",
+    "skill_rating"
+  ],
+  "best_clf": "logistic_regression",
+  "best_reg": "ridge",
+  "clf_metrics": {
+    "random_forest": {
+      "acc": 0.881,
+      "f1": 0.6766,
+      "roc_auc": 0.8969
+    },
+    "gradient_boosting": {
+      "acc": 0.892,
+      "f1": 0.7306,
+      "roc_auc": 0.901
+    },
+    "logistic_regression": {
+      "acc": 0.836,
+      "f1": 0.7418,
+      "roc_auc": 0.9021
+    },
+    "svm": {
+      "acc": 0.885,
+      "f1": 0.7028,
+      "roc_auc": 0.8949
+    }
+  },
+  "reg_metrics": {
+    "random_forest": {
+      "rmse": 1.5342,
+      "r2": 0.7472
+    },
+    "gradient_boosting": {
+      "rmse": 1.484,
+      "r2": 0.7635
+    },
+    "ridge": {
+      "rmse": 1.4748,
+      "r2": 0.7664
+    }
+  }
+}
